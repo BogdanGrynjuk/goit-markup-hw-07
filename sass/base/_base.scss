@@ -1,0 +1,17 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $text-color-main;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  @include clear;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,33 @@
+.activities {
+  padding-top: 0;
+}
+
+.activities__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.activity__thumb {
+  position: relative;
+}
+
+.activity__description {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 700;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: $text-color-footer-main;
+
+  background-color: rgba(47, 48, 58, 0.8);
+}
