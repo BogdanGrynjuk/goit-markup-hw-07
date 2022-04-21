@@ -7,11 +7,11 @@
   color: $color-accent;
   text-decoration: none;
 
-  &--dark {
+  &__dark {
     color: $text-color-black;
   }
   
-  &--ligt {
+  &__light {
     color: $text-color-footer-main;
   }
 }

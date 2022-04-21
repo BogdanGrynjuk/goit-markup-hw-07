@@ -1,18 +1,14 @@
 .activities {
-  padding-top: 0;
-}
-
-.activities__list {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
 }
 
-.activity__thumb {
+.activities__thumb {
   position: relative;
 }
 
-.activity__description {
+.activities__description {
   position: absolute;
   left: 0;
   bottom: 0;

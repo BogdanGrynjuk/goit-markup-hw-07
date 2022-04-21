@@ -25,12 +25,9 @@
         <!-- nav-site -->
         <nav class="nav-site">
           <!-- logotype start -->
-          <a class="logo" href="./index.html">
-            Web
-            <span class="logo--dark">Studio</span>
-          </a>
+          <a class="logo" href="./index.html">Web<span class="logo__dark">Studio</span></a>
           <!-- logotype end -->          
-          <ul class="nav-site__menu list">            
+          <ul class="nav-site__menu">            
             <li class="nav-site__item">
               <a class="nav-site__link nav-site__link--current" href="./index_1.html">Студия</a>
             </li>
@@ -45,7 +42,7 @@
           </ul>
         </nav>
         <!-- contacts start -->
-        <ul class="contacts list">
+        <ul class="contacts">
           <li class="contacts__item">
             <a class="contacts__link" href="mailto:info@devstudio.com">
               <svg class="contacts__icon" width="16" height="12">
@@ -87,49 +84,49 @@
       <div class="container">
         <h2 class="section__heading visually-hidden">Особенности</h2>
         
-        <ul class="features list"> 
+        <ul class="features"> 
 
-          <li class="features__item feature">
-            <div class="feature__thumb">
-              <svg class="feature__icon" width="70" height="70">
+          <li class="features__item">
+            <div class="features__thumb">
+              <svg class="features__icon" width="70" height="70">
                 <use href="./images/icons.svg#antenna"></use>
               </svg>
             </div>
-            <h3 class="feature__title">Внимание к деталям</h3>
-            <p class="feature__description">Идейные соображения, а также начало повседневной работы по формированию
+            <h3 class="features__title">Внимание к деталям</h3>
+            <p class="features__description">Идейные соображения, а также начало повседневной работы по формированию
               позиции.</p>
           </li>
 
-          <li class="features__item feature">
-            <div class="feature__thumb">
-              <svg class="feature__icon" width="70" height="70">
+          <li class="features__item">
+            <div class="features__thumb">
+              <svg class="features__icon" width="70" height="70">
                 <use href="./images/icons.svg#clock"></use>
               </svg>
             </div>
-            <h3 class="feature__title">Пунктуальность</h3>
-            <p class="feature__description">Задача организации, в особенности же рамки и место обучения кадров влечет
+            <h3 class="features__title">Пунктуальность</h3>
+            <p class="features__description">Задача организации, в особенности же рамки и место обучения кадров влечет
               за собой.</p>
           </li>
 
-          <li class="features__item feature">
-            <div class="feature__thumb">
-              <svg class="feature__icon" width="70" height="70">
+          <li class="features__item">
+            <div class="features__thumb">
+              <svg class="features__icon" width="70" height="70">
                 <use href="./images/icons.svg#diagram"></use>
               </svg>
             </div>
-            <h3 class="feature__title">Планирование</h3>
-            <p class="feature__description">Равным образом консультация с широким активом в значительной степени
+            <h3 class="features__title">Планирование</h3>
+            <p class="features__description">Равным образом консультация с широким активом в значительной степени
               обуславливает.</p>
           </li>
 
-          <li class="features__item feature">
-            <div class="feature__thumb">
-              <svg class="feature__icon" width="70" height="70">
+          <li class="features__item">
+            <div class="features__thumb">
+              <svg class="features__icon" width="70" height="70">
                 <use href="./images/icons.svg#astronaut"></use>
               </svg>
             </div>
-            <h3 class="feature__title">Современные технологии</h3>
-            <p class="feature__description">Значимость этих проблем настолько очевидна, что реализация плановых
+            <h3 class="features__title">Современные технологии</h3>
+            <p class="features__description">Значимость этих проблем настолько очевидна, что реализация плановых
               заданий.</p>
           </li>
 
@@ -139,47 +136,47 @@
     </section>
     <!-- sectoin features end -->
     <!-- section activities start -->
-    <section class="section activities">
+    <section class="section section--no-padding-top">
       <div class="container">
 
-          <h2 class="section__heading heading">Чем мы занимаемся</h2>
+          <h2 class="section__heading">Чем мы занимаемся</h2>
 
-          <ul class="activities__list list">
+          <ul class="activities">
 
-            <li class="activities__item activity">
-              <div class="activity__thumb">
+            <li class="activities__item">
+              <div class="activities__thumb">
                 <img 
                   src="./images/activity1.jpg" 
                   alt="разработка десктопных приложений" 
                   width="370"
                 >
-                <p class="activity__description">
+                <p class="activities__description">
                   Десктопные приложения                  
                 </p>
               </div>
             </li>
 
-            <li class="activities__item activity">
-              <div class="activity__thumb">
+            <li class="activities__item">
+              <div class="activities__thumb">
                 <img 
                   src="./images/activity2.jpg" 
                   alt="разработка мобильных приложений" 
                   width="370"
                 >
-                <p class="activity__description">
+                <p class="activities__description">
                   Мобильные приложения                  
                 </p>
               </div>
             </li>
 
-            <li class="activities__item activity">
-              <div class="activity__thumb">
+            <li class="activities__item">
+              <div class="activities__thumb">
                 <img 
                   src="./images/activity3.jpg" 
                   alt="предоставление дизайнерских решений" 
                   width="370"
                 >
-                <p class="activity__description">
+                <p class="activities__description">
                   Дизайнерские решения
                 </p>
               </div>
@@ -191,20 +188,20 @@
     </section>
     <!-- section activities end -->
     <!-- section out team start-->
-    <section class="section section--dark">
+    <section class="section section--backgraund-dark">
       <div class="container">
 
           <h2 class="section__heading">Наша команда</h2>
 
-          <ul class="team-cards list">
-            <!-- team-card start -->
-            <li class="team-cards__item team-card">
-              <img class="team-card__img" src="./images/avatar1.jpg" alt="фото Игорь Демьяненко" width="270">
-              <div class="team-card__description">
-                <h3 class="team-card__name">Игорь Демьяненко</h3>
-                <p class="team-card__position">Product Designer</p>
+          <ul class="team-cards">
+            
+            <li class="team-cards__item">
+              <img class="team-cards__img" src="./images/avatar1.jpg" alt="фото Игорь Демьяненко" width="270">
+              <div class="team-cards__description">
+                <h3 class="team-cards__title">Игорь Демьяненко</h3>
+                <p class="team-cards__position">Product Designer</p>
                 <!-- socials start -->
-                <ul class="socials list">
+                <ul class="socials">
 
                   <li class="socials__item">
                     <a class="socials__link" href="#">
@@ -241,15 +238,14 @@
                 <!-- socials end -->
               </div>              
             </li>
-            <!-- tiam-card end -->
+            
+            <li class="team-cards__item">
+              <img class="team-cards__img" src="./images/avatar2.jpg" alt="фото Ольга Репина" width="270">
+              <div class="team-cards__description">
+                <h3 class="team-cards__title">Ольга Репина</h3>
+                <p class="team-cards__position">Frontend Developer</p>
 
-            <li class="team-card">
-              <img class="team-card__img" src="./images/avatar2.jpg" alt="фото Ольга Репина" width="270">
-              <div class="team-card__description">
-                <h3 class="team-card__name">Ольга Репина</h3>
-                <p class="team-card__position">Frontend Developer</p>
-
-                <ul class="socials list">
+                <ul class="socials">
                   <li class="socials__item">
                     <a class="socials__link" href="#">
                       <svg class="socials__icon" width="20" height="20" aria-label="instagram">
@@ -286,12 +282,12 @@
               </div>             
             </li>
 
-            <li class="team-card">
-              <img class="team-card__img" src="./images/avatar3.jpg" alt="фото Николай Тарасов" width="270">
-              <div class="team-card__description">
-                <h3 class="team-card__name">Николай Тарасов</h3>
-                <p class="team-card__position">Marketing</p>
-                <ul class="socials list">
+            <li class="team-cards__item">
+              <img class="team-cards__img" src="./images/avatar3.jpg" alt="фото Николай Тарасов" width="270">
+              <div class="team-cards__description">
+                <h3 class="team-cards__title">Николай Тарасов</h3>
+                <p class="team-cards__position">Marketing</p>
+                <ul class="socials">
                   <li class="socials__item">
                     <a class="socials__link" href="#">
                       <svg class="socials__icon" width="20" height="20" aria-label="instagram">
@@ -328,12 +324,12 @@
               </div>                             
             </li>
             
-            <li class="team-card">
-              <img class="team-card__img" src="./images/avatar4.jpg" alt="фото Михаил Ермаков" width="270">
-              <div class="team-card__description">
-                <h3 class="team-card__name">Михаил Ермаков</h3>
-                <p class="team-card__position">UI Designer</p>
-                <ul class="socials list">
+            <li class="team-cards__item">
+              <img class="team-cards__img" src="./images/avatar4.jpg" alt="фото Михаил Ермаков" width="270">
+              <div class="team-cards__description">
+                <h3 class="team-cards__title">Михаил Ермаков</h3>
+                <p class="team-cards__position">UI Designer</p>
+                <ul class="socials">
                   <li class="socials__item">
                     <a class="socials__link" href="#">
                       <svg class="socials__icon" width="20" height="20" aria-label="instagram">
@@ -379,7 +375,7 @@
       <div class="container">
         <h2 class="section__heading">Постоянные клиенты</h2>
 
-        <ul class="clients list">
+        <ul class="clients">
           <li class="clients__item">
             <a class="clients__link" href="#">
               <svg class="clients__icon" width="106" height="60">
@@ -440,10 +436,10 @@
       <div class="page-footer__wrapper">
         <!-- contacts-box start -->
         <div class="contacts-box">
-          <a class="logo" href="./index.html">Web<span class="logo--ligt">Studio</span></a>
+          <a class="logo" href="./index.html">Web<span class="logo__light">Studio</span></a>
           
           <address class="address">
-            <ul class="address__list list">
+            <ul class="address__list">
               <li class="address__item">
                 <a class="address__link address__link--white" href="https://goo.gl/maps/oR3F1YAG6LvCoMsa9" target="_blank"
                   rel="noopener noreferrer">
@@ -465,7 +461,7 @@
         <!-- socials-box start -->
         <div class="socials-box">
           <p class="cta">присоединяйтесь</p>
-          <ul class="socials list">
+          <ul class="socials">
             <li class="socials__item">
               <a class="socials__link socials__link--footer" href="#">
                 <svg class="socials__icon" width="20" height="20" aria-label="instagram">
@@ -530,10 +526,10 @@
           <use href="./images/icons.svg#btn-close" ></use>
         </svg>        
       </button>
-      <form class="madal__form">
 
-        <p class="modal__cta">Оставьте свои данные, мы вам перезвоним</p>
+      <p class="modal__cta">Оставьте свои данные, мы вам перезвоним</p>
 
+      <form class="madal-form">
         <label class="modal-form__field">
           <span class="modal-form__label">Имя</span>
           <input class="modal-form__input" type="text" name="user-name" required>
@@ -558,9 +554,9 @@
           </svg>
         </label>
         
-        <label class="modal-form__field textarea">
+        <label class="modal-form__field modal-form__field--another-margin-bottom">
           <span class="modal-form__label">Комментарий</span>
-          <textarea class="modal-form__textarea modal-form__input" name="comment" placeholder="Введите текст"></textarea>
+          <textarea class="modal-form__textarea" name="comment" placeholder="Введите текст"></textarea>
         </label>
 
         <label class="check">          
